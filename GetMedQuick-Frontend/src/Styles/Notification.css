@@ -1,0 +1,10 @@
+.not-lst {
+  width: 70vw;
+}
+.lst {
+  display: flex;
+  justify-content: center;
+}
+.lst-item:hover{
+box-shadow:2px 2px 8px rgba(0, 0,0, 0.13); 
+}

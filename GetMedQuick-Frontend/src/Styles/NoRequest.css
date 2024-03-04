@@ -1,0 +1,15 @@
+.req-cont{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.no-req{
+    border-radius: 10rem;
+    width: 40vw;
+    height: 40vw;
+}
+.noreq-text{
+    font-size:29px;
+}

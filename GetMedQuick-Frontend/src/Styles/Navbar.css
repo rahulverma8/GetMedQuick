@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --mainColor: #ffffff;
+  --mainColorLight: #adccef;
+  --secondaryColor: #3fd2c7;
+  --textColor: #00458b;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 4rem;
+  background-color: transparent;
+  position: fixed;
+  color: var(--textColor);
+  z-index: 100;
+}
+.nav h3{
+  padding: 30px;
+}
+.nav-act{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 4rem;
+  position: fixed;
+  z-index: 4;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0,0.2);
+}
+
+nav a {
+  margin: 0 1.9rem;
+  color: var(--textColor);
+  font-size: larger;
+  text-decoration: none;
+}
+.signup-btn {
+  background: #3fd2c7;
+  border-radius: 999px;
+  box-shadow: #3fd2c7 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  hospital-select: none;
+  -webkit-hospital-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.nav-btn nav-close-btn{
+  padding: 0;
+}
+.signup-btn:hover {
+  transform: scale(1.04);
+  transition: ease-in 0.3s;
+}
+
+nav a:hover {
+  transition: ease-in 0.23s;
+  text-decoration: underline;
+  color: #112943;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+.nav div,
+nav {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+   nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--mainColorLight);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}

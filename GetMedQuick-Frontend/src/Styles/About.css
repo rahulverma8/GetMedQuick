@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
+
+.ab-container{
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about{
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+  margin: .625rem;
+
+}
+.about-sec{
+  display: flex;
+  flex: 50 50;
+}
+.about-img1{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  height: 45vw;
+  border-radius: 50%;
+}
+.about-details{
+  font-size:larger;
+  padding-top:4.125rem ;
+  width: 28rem;
+  font-family: 'Bitter', serif;
+}

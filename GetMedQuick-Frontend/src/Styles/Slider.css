@@ -1,0 +1,17 @@
+.res{
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+  margin: .625rem;
+}
+.slider-card {
+  width: 12.5rem;
+  height: 12.5rem;
+  color: #fff;
+}
+.card-top > img {
+  width: 10.25rem;
+  height: 8rem;
+  background: white;
+}
+

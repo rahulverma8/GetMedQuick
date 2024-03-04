@@ -1,0 +1,94 @@
+.lgout-btn, .amen-btn, .view-btn{
+  background: #3fd2c7;
+  border-radius: 999px;
+  box-shadow: #3fd2c7 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.lgout-btn:hover, .amen-btn:hover, .view-btn:hover{
+  transform: scale(1.04);
+  transition: ease-in 0.3s;
+}
+.list-cont{
+  width:70%;
+  margin-left: 3vw;
+  background-color: #fff;
+  padding: 30px 30px;
+}
+.li-heading{
+  width: 70%;
+  padding: 5px 30px;
+  margin:20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content:space-between;
+}
+.li{
+  width: 90%;
+  padding: 5px 30px;
+  margin:20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  
+}
+.btn-set{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7vw;
+}
+.card-cont{
+  background-color: #adccef;;
+  color:#fff;
+  width:23%;
+  text-align: center;
+  padding:7rem 10px 20px ;
+  border-radius: 10px;
+  position: fixed;
+  top:30%;
+  left: 73%;
+}
+.card-img{
+  width: 13vw;
+  height: 13vw;
+  margin: auto;
+  background-image: url("https://prasadhospital.org/img/prasad-hospital-banner11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60%;
+  position: absolute;
+  left:20%;
+  top: -30%;
+}
+.card-add i{
+  color: rgb(255, 255, 255);
+}
+.card-name{
+  font-weight: 900;
+}
+.card-add{
+  font-style: italic;
+}
+.li-heading p{
+  font-weight: 800;
+}
+
